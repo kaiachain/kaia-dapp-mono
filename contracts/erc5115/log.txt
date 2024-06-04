@@ -1,0 +1,188 @@
+No files changed, compilation skipped
+
+Ran 2 tests for test/YearnVault.t.sol:YearnVaultSYTest
+[32m[PASS][0m testDeposit() (gas: 220568)
+Logs:
+  SY address:  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+  Deposited:  100
+
+Traces:
+  [1403996] [32mYearnVaultSYTest[0m::[32msetUp[0m()[33m[0m
+    ├─ [1343571] [33m→ [0m[33mnew[0m YearnVaultSY@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   ├─ [25256] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mapprove[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, 115792089237316195423570985008687907853269984665640564039457584007913129639935 [2;49;39m[1.157e77][0m)[33m[0m
+    │   │   ├─ emit [36mApproval[0m(owner: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], spender: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, value: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [2;49;39m[1.157e77][0m)
+    │   │   └─ [32m← [0mtrue
+    │   └─ [32m← [0m6223 bytes of code
+    └─ [32m← [0m()
+
+  [224781] [32mYearnVaultSYTest[0m::[32mtestDeposit[0m()[33m[0m
+    ├─ [0] [34mVM[0m::[34mdeal[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 340282366920938463463374607431768211456 [2;49;39m[3.402e38][0m)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [0] [32mconsole[0m::[32mlog[0m("SY address: ", YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [25256] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mapprove[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 100)[33m[0m
+    │   ├─ emit [36mApproval[0m(owner: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, spender: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   └─ [32m← [0mtrue
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [234875] [32mYearnVaultSY[0m::[32mdeposit[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, 100, 100)[33m[0m
+    │   ├─ [33744] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransferFrom[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 100)[33m[0m
+    │   │   ├─ emit [36mApproval[0m(owner: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, spender: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 0)
+    │   │   ├─ emit [36mTransfer[0m(from: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   │   └─ [32m← [0mtrue
+    │   ├─ [841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   ├─ [3873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m0
+    │   ├─ [109175] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mdeposit[0m(100)[33m[0m
+    │   │   ├─ [2841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD)[33m [staticcall][0m
+    │   │   │   └─ [32m← [0m0
+    │   │   ├─ emit [36mTransfer[0m(from: 0x0000000000000000000000000000000000000000, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   │   ├─ [18] [32mPRECOMPILES[0m::[32midentity[0m(0x23b872dd)[33m[0m
+    │   │   │   └─ [32m← [0m0x23b872dd
+    │   │   ├─ [30] [32mPRECOMPILES[0m::[32midentity[0m(0x000000000000000000000000000000000000000000000000000000000000006423b872dd0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000003d63b4766b873f2eeb473ca3545afda6b0a10bcd0000000000000000000000000000000000000000000000000000000000000064)[33m[0m
+    │   │   │   └─ [32m← [0m0x000000000000000000000000000000000000000000000000000000000000006423b872dd0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000003d63b4766b873f2eeb473ca3545afda6b0a10bcd0000000000000000000000000000000000000000000000000000000000000064
+    │   │   ├─ [26556] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransferFrom[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, 100)[33m[0m
+    │   │   │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, value: 100)
+    │   │   │   └─ [32m← [0mtrue
+    │   │   ├─ [21] [32mPRECOMPILES[0m::[32midentity[0m(0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001)[33m[0m
+    │   │   │   └─ [32m← [0m0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─ emit [36mDeposit[0m(param0: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: 100, param2: 100)
+    │   │   └─ [32m← [0m100
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   ├─ emit [36mTransfer[0m(from: 0x0000000000000000000000000000000000000000, to: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, value: 100)
+    │   ├─ emit [36mDeposit[0m(caller: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, receiver: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, tokenIn: 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, amountDeposited: 100, amountSYOut: 100)
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   └─ [32m← [0m100
+    ├─ [0] [32mconsole[0m::[32mlog[0m("Deposited: ", 100)[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    └─ [32m← [0m()
+
+[32m[PASS][0m testRedeem() (gas: 382024)
+Logs:
+  SY address:  0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+  Deposited:  100
+  Redeemed:  50
+  Redeemed:  50
+
+Traces:
+  [1403996] [32mYearnVaultSYTest[0m::[32msetUp[0m()[33m[0m
+    ├─ [1343571] [33m→ [0m[33mnew[0m YearnVaultSY@0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f
+    │   ├─ [25256] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mapprove[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, 115792089237316195423570985008687907853269984665640564039457584007913129639935 [2;49;39m[1.157e77][0m)[33m[0m
+    │   │   ├─ emit [36mApproval[0m(owner: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], spender: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, value: 115792089237316195423570985008687907853269984665640564039457584007913129639935 [2;49;39m[1.157e77][0m)
+    │   │   └─ [32m← [0mtrue
+    │   └─ [32m← [0m6223 bytes of code
+    └─ [32m← [0m()
+
+  [386236] [32mYearnVaultSYTest[0m::[32mtestRedeem[0m()[33m[0m
+    ├─ [0] [34mVM[0m::[34mdeal[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 340282366920938463463374607431768211456 [2;49;39m[3.402e38][0m)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [0] [32mconsole[0m::[32mlog[0m("SY address: ", YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [25256] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mapprove[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 100)[33m[0m
+    │   ├─ emit [36mApproval[0m(owner: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, spender: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   └─ [32m← [0mtrue
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [234875] [32mYearnVaultSY[0m::[32mdeposit[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, 100, 100)[33m[0m
+    │   ├─ [33744] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransferFrom[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 100)[33m[0m
+    │   │   ├─ emit [36mApproval[0m(owner: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, spender: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 0)
+    │   │   ├─ emit [36mTransfer[0m(from: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   │   └─ [32m← [0mtrue
+    │   ├─ [841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   ├─ [3873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m0
+    │   ├─ [109175] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mdeposit[0m(100)[33m[0m
+    │   │   ├─ [2841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD)[33m [staticcall][0m
+    │   │   │   └─ [32m← [0m0
+    │   │   ├─ emit [36mTransfer[0m(from: 0x0000000000000000000000000000000000000000, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 100)
+    │   │   ├─ [18] [32mPRECOMPILES[0m::[32midentity[0m(0x23b872dd)[33m[0m
+    │   │   │   └─ [32m← [0m0x23b872dd
+    │   │   ├─ [30] [32mPRECOMPILES[0m::[32midentity[0m(0x000000000000000000000000000000000000000000000000000000000000006423b872dd0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000003d63b4766b873f2eeb473ca3545afda6b0a10bcd0000000000000000000000000000000000000000000000000000000000000064)[33m[0m
+    │   │   │   └─ [32m← [0m0x000000000000000000000000000000000000000000000000000000000000006423b872dd0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000003d63b4766b873f2eeb473ca3545afda6b0a10bcd0000000000000000000000000000000000000000000000000000000000000064
+    │   │   ├─ [26556] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransferFrom[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, 100)[33m[0m
+    │   │   │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, value: 100)
+    │   │   │   └─ [32m← [0mtrue
+    │   │   ├─ [21] [32mPRECOMPILES[0m::[32midentity[0m(0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001)[33m[0m
+    │   │   │   └─ [32m← [0m0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─ emit [36mDeposit[0m(param0: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: 100, param2: 100)
+    │   │   └─ [32m← [0m100
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   ├─ emit [36mTransfer[0m(from: 0x0000000000000000000000000000000000000000, to: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, value: 100)
+    │   ├─ emit [36mDeposit[0m(caller: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, receiver: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, tokenIn: 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, amountDeposited: 100, amountSYOut: 100)
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m100
+    │   └─ [32m← [0m100
+    ├─ [0] [32mconsole[0m::[32mlog[0m("Deposited: ", 100)[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [0] [34mVM[0m::[34mdeal[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 340282366920938463463374607431768211456 [2;49;39m[3.402e38][0m)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [24784] [32mYearnVaultSY[0m::[32mapprove[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 100)[33m[0m
+    │   ├─ emit [36mApproval[0m(owner: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, spender: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, value: 100)
+    │   └─ [32m← [0mtrue
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [106256] [32mYearnVaultSY[0m::[32mredeem[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 50, 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, 50)[33m[0m
+    │   ├─ emit [36mTransfer[0m(from: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 50)
+    │   ├─ [552] [32mYearnVaultSY[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m50
+    │   ├─ [60684] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mwithdraw[0m(50)[33m[0m
+    │   │   ├─ [841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD)[33m [staticcall][0m
+    │   │   │   └─ [32m← [0m100
+    │   │   ├─ [841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD)[33m [staticcall][0m
+    │   │   │   └─ [32m← [0m100
+    │   │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0x0000000000000000000000000000000000000000, value: 50)
+    │   │   ├─ [18] [32mPRECOMPILES[0m::[32midentity[0m(0xa9059cbb)[33m[0m
+    │   │   │   └─ [32m← [0m0xa9059cbb
+    │   │   ├─ [27] [32mPRECOMPILES[0m::[32midentity[0m(0x0000000000000000000000000000000000000000000000000000000000000044a9059cbb0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000000000000000000000000000000000000000000032)[33m[0m
+    │   │   │   └─ [32m← [0m0x0000000000000000000000000000000000000000000000000000000000000044a9059cbb0000000000000000000000005615deb798bb3e4dfa0139dfa1b3d433cc23b72f0000000000000000000000000000000000000000000000000000000000000032
+    │   │   ├─ [23955] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransfer[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], 50)[33m[0m
+    │   │   │   ├─ emit [36mTransfer[0m(from: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 50)
+    │   │   │   └─ [32m← [0mtrue
+    │   │   ├─ [21] [32mPRECOMPILES[0m::[32midentity[0m(0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001)[33m[0m
+    │   │   │   └─ [32m← [0m0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000001
+    │   │   ├─ emit [36mWithdraw[0m(param0: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], param1: 50, param2: 50)
+    │   │   └─ [32m← [0m50
+    │   ├─ [841] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m50
+    │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0x0000000000000000000000000000000000000000, value: 50)
+    │   ├─ [4055] [32m0x7CAc58eB7707A83a196D73A4414C665a631Cd585[0m::[32mtransfer[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 50)[33m[0m
+    │   │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, value: 50)
+    │   │   └─ [32m← [0mtrue
+    │   ├─ emit [36mRedeem[0m(caller: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, receiver: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, tokenOut: 0x7CAc58eB7707A83a196D73A4414C665a631Cd585, amountSYToRedeem: 50, amountTokenOut: 50)
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m50
+    │   └─ [32m← [0m50
+    ├─ [0] [32mconsole[0m::[32mlog[0m("Redeemed: ", 50)[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    ├─ [0] [34mVM[0m::[34mprank[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84)[33m[0m
+    │   └─ [34m← [0m()
+    ├─ [63283] [32mYearnVaultSY[0m::[32mredeem[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 50, 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, 50)[33m[0m
+    │   ├─ emit [36mTransfer[0m(from: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, to: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], value: 50)
+    │   ├─ [552] [32mYearnVaultSY[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m50
+    │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0x0000000000000000000000000000000000000000, value: 50)
+    │   ├─ [25367] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mtransfer[0m(0xE41D71FD117236209C25a4C4e67A51d3966B1a84, 50)[33m[0m
+    │   │   ├─ emit [36mTransfer[0m(from: YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f], to: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, value: 50)
+    │   │   └─ [32m← [0mtrue
+    │   ├─ emit [36mRedeem[0m(caller: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, receiver: 0xE41D71FD117236209C25a4C4e67A51d3966B1a84, tokenOut: 0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD, amountSYToRedeem: 50, amountTokenOut: 50)
+    │   ├─ [1873] [32m0x3D63B4766B873F2eEb473ca3545AFda6b0A10BCD[0m::[32mbalanceOf[0m(YearnVaultSY: [0x5615dEB798BB3E4dFa0139dFa1b3D433Cc23b72f])[33m [staticcall][0m
+    │   │   └─ [32m← [0m0
+    │   └─ [32m← [0m50
+    ├─ [0] [32mconsole[0m::[32mlog[0m("Redeemed: ", 50)[33m [staticcall][0m
+    │   └─ [32m← [0m()
+    └─ [32m← [0m()
+
+Test result: [32mok[0m. [32m2[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 2.14ms
+
+Ran 1 test suite in 2.14ms: [32m2[0m tests passed, [31m0[0m failed, [33m0[0m skipped (2 total tests)
