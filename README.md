@@ -1,7 +1,7 @@
 ![Lone explorer in the dark forest](home-banner.png)
-# Kaia DApp Toolkit 🧰
+# Kaia DApp Mono 🧰
 
-> Start your web3 journey on Kaia with a complete DApp toolkit
+> Start your web3 journey on Kaia with a complete DApp monorepo
 
 **Kaia DApp Toolkit** takes an unopinionated approach to DApp development. Instead of forcing you to adopt our tech stack of choice, we provide you with code snippets that you can use to copy and paste into whichever framework/technical stack that you are using. You can always refer to the original framework documentation for troubleshooting as well as our Troubleshooting section for each component.
 
@@ -11,7 +11,7 @@ Whether you're a hackathon participant or an ambitious entrepreneur looking to e
 
 ## Getting started
 ### Docs
-Read the [docs](/docs/README.md) in the repository for complete
+Read the [docs](/docs/README.md) in the repository for more information.
 
 ### Contracts
 Contains many complete smart contract implementations of various DApps
@@ -19,14 +19,20 @@ Contains many complete smart contract implementations of various DApps
 ### Frontend
 Contains implementation details of various frontend frameworks for EVM and guide to implement Kaia specific features with copy/paste code samples
 
+### Examples
+List of sample implementations contributed by the community for various integrations
+
+### dApps
+List of cool OSS dApps for you to check out 
+
 ### Docker
-placeholder
+Dockerized app/infra samples
 
 ### Kaia-hacker-house
-Contains details of bounty program on Kaia Ecosystem
+Contains details of Kaia hacker house, bounty program, workshops, etc.
 
 ### Learn
-Includes various information pieces for the reference
+Includes various information pieces for reference
 
 ### Workshops
 Contains workshop exercises
