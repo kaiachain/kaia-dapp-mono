@@ -1,6 +1,6 @@
-# Welcome to Klaytn DApp Toolkit contributing guide
+# Welcome to Kaia dApp Mono contributing guide
 
-Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/klaytn/klaytn-dapp-toolkit](https://github.com/klaytn/klaytn-dapp-toolkit) :sparkles:.
+Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [https://github.com/kaiachain/kaia-dapp-mono](https://github.com/kaiachain/kaia-dapp-mono) :sparkles:.
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -61,11 +61,11 @@ Once you submit your PR, a Docs team member will review your proposal. We may as
 
 ### Your PR is merged!
 
-Congratulations :tada::tada: Klaytn Foundation thanks you :sparkles:.
+Congratulations :tada::tada: Kaia Foundation thanks you :sparkles:.
 
-Once your PR is merged, your contributions will be publicly visible on the [https://github.com/klaytn/klaytn-dapp-toolkit](https://github.com/klaytn/klaytn-dapp-toolkit).
+Once your PR is merged, your contributions will be publicly visible on the [https://github.com/kaiachain/kaia-dapp-mono](https://github.com/kaiachain/kaia-dapp-mono).
 
-Now that you are part of the Klaytn OSS community, see how else you can [contribute to the OSS ecosystem](./CONTRIBUTING.md/#types-of-contributions).
+Now that you are part of the Kaia OSS community, see how else you can [contribute to the OSS ecosystem](./CONTRIBUTING.md/#types-of-contributions).
 
 
 ## Types of contributions
