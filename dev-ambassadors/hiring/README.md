@@ -6,9 +6,9 @@ In our commitment to provide exceptional support and engagement to our ever-expa
 
 > [!NOTE]
 > **`TL;DR`**  
-> ✅ As a Klaytn Ambassador, you will be taking the lead in engaging with on our community channels.  
-> ✅ You will also have the chance to represent Klaytn at major blockchain events and developer meetups with all related expenses paid.  
-> ✅ Outstanding Klaytn Ambassadors may also be offered internship or employment opportunities at Klaytn.
+> ✅ As a Kaia Ambassador, you will be taking the lead in engaging with on our community channels.  
+> ✅ You will also have the chance to represent Kaia at major blockchain events and developer meetups with all related expenses paid.  
+> ✅ Outstanding Kaia Ambassadors may also be offered internship or employment opportunities at Kaia.
 >   
 > Interested? Apply through the Google Form (Dev Ambassador & Brand Ambassador) whenever you feel like applying!
 
@@ -23,15 +23,15 @@ In our commitment to provide exceptional support and engagement to our ever-expa
 ## 👀 Responsibilities
 You will have the opportunity to engage voluntarily in a series of activities aimed at growing Kaia's community, in addition to the activities listed below.
 
-You will have the opportunity to engage voluntarily in a series of activities aimed at growing Klaytn's community, in addition to the activities listed below.
-- Provide answers to questions posted on the Klaytn [Discord](https://discord.gg/kaiachain) or [Kaia Developer Forum](https://forum.kaia.io/).
+You will have the opportunity to engage voluntarily in a series of activities aimed at growing Kaia's community, in addition to the activities listed below.
+- Provide answers to questions posted on the Kaia [Discord](https://discord.gg/kaiachain) or [Kaia Developer Forum](https://forum.kaia.io/).
 - Encountering challenging questions? Don't worry! Connect with the Kaia team, and we'll help you out 😉
 - Execute development tasks within the designated development projects assigned to each mentor.
 
 ## 🎁 Benefits
 ### Boost Your Skills 💪
 
-- Access to the Klaytn Team to receive mentoring.
+- Access to the Kaia Team to receive mentoring.
 - Gain exposure to real-world dev challenges and learn how they are solved.
 
 ### **KLAY Rewards 💸**
@@ -40,8 +40,8 @@ You will have the opportunity to engage voluntarily in a series of activities ai
 
 ### Ambassador exclusives 😎
 
-- Priority invitations to Klaytn-hosted events with limited slots or seating.
-- Entry to dev events and conferences as a Klaytn representative with all related expenses paid.
+- Priority invitations to Kaia-hosted events with limited slots or seating.
+- Entry to dev events and conferences as a Kaia representative with all related expenses paid.
 
 ### And others 😆
 
@@ -57,10 +57,10 @@ You will have the opportunity to engage voluntarily in a series of activities ai
 
 ## 🤙🏻 Contact Us
 
-💡 If you have any other questions about the Klaytn Ambassador Program, please contact the respective Klaytn representative below.
+💡 If you have any other questions about the Kaia Ambassador Program, please contact the respective Kaia representative below.
 
 > 📨 sean.lin@kaia.io
 
-💡 Please check out Klaytn’s official channels too
+💡 Please check out Kaia’s official channels too
 
  [Website](https://kaia.io/) | [Developer Hub](https://developer.kaia.io/) | [Medium](https://medium.com/@kaia) | [Twitter](https://twitter.com/kaiachain) | [Discord](https://discord.gg/kaiachain) | [Telegram](https://t.me/kaiachain)
