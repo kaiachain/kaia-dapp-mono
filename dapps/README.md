@@ -1,1 +1,1 @@
-# List of DApps that won bounty on Dorahacks
+# List of DApps and useful information in Kaia ecosystem
