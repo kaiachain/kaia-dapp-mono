@@ -6,6 +6,11 @@ We are funding open source developers... BIG! In collaboration with [DoraHacks](
 ## Program
 Go to [`program.md`](/bounty/program.md) for more details (yes, it's longgggggggg so I had to split the text).
 
+## Submission rule
+1. Fork this repo to your personal GitHub
+2. Go to [`submissions.md`](/bounty/submissions.md) and edit the file according to instruction
+3. Save and open a Pull Request
+
 ## Support
 Tag us directly on GitHub or X, or send us an email.
 | GitHub | Twitter | Email |
