@@ -4,7 +4,7 @@
 We are funding open source developers... BIG! In collaboration with [DoraHacks](https://dorahacks.io), we are running a year round bounty program that rewards open source contributors building many things for the Kaia ecosystem.
 
 ## Program
-Go to [`program.md`](/bounty/program.md) for more details (yes, it's longgggggggg so I had to split the text).
+Go to [`tracks.md`](/bounty/tracks.md) for more details (yes, it's longgggggggg so I had to split the text).
 
 ## Submission rule
 1. Fork this repo to your personal GitHub

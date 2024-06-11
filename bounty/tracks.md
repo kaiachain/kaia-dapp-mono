@@ -11,7 +11,7 @@ Contribute an approved smart contract into [contracts library](https://github.co
 
 ### Details
 - Proposed smart contract should be approved beforehand. You can open a proposal as an `issue` in the [Issue tab](https://github.com/kaiachain/kaia-dapp-mono/issues)
-- Solidity source files, scripts and test cases, a small README.md file explaining use case
+- Solidity source files, scripts and test cases, a small README.md file explaining use case (please remove all other files)
 - Can be adopted in Remix, Hardhat or Foundry frameworks
 
 ### Submission rules
@@ -63,9 +63,9 @@ Contribute a free to use DApp onto mainnet
 
 ---
 
-## Contribute to Klaytn Docs
+## Contribute to Kaia Docs
 
-Contribute to Klaytn Docs (https://docs.klaytn.foundation/)
+Contribute to Kaia Docs (https://docs.kaia.io/)
 
 ### Rewards
 - 50 KLAY per `merged` PR/submission
@@ -122,9 +122,9 @@ Contribute a DApp that leverages Mint Club v2 SDK
 - Bounty submission should be of good quality (well tested for core functionalities)
 
 ---
-## Contribute a DApp/App that leverages Klaytn Fee Delegation or Role Based Account feature
+## Contribute a DApp/App that leverages Kaia Fee Delegation or Role Based Account feature
 
-Contribute a DApp/App that leverages Klaytn Fee Delegation or Role Based Account feature
+Contribute a DApp/App that leverages Kaia Fee Delegation or Role Based Account feature
 
 ### Rewards
 - 500 KLAY per `merged` PR/submission
@@ -139,9 +139,9 @@ Contribute a DApp/App that leverages Klaytn Fee Delegation or Role Based Account
 - Bounty submission should be of good quality (well tested for core functionalities)
 
 ---
-## Klaytn Educate Series(KES) 
+## Kaia Educate Series(KES) 
 
-Klaytn Educate Series aims to educate you on everything web3 and the Klaytn blockchain. You can register using this [link](https://lu.ma/klaytn-educate-series).
+Kaia Educate Series aims to educate you on everything web3 and the Kaia blockchain. You can register using this [link](https://lu.ma/klaytn-educate-series).
 
 ### Rewards
 - $100 worth of KLAY to be won
