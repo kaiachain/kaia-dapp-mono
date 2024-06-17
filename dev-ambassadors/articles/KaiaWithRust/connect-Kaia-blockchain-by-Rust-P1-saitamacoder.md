@@ -1,4 +1,4 @@
-# Instructions for connecting Kaia blochain with Rust - P1
+# Instructions for connecting Kaia blockchain with Rust - P1
 A common issue I've heard about in Rust is the complexity of implementing code structures that interact with other platforms. This has caused many projects to halt and switch to other programming languages. However, as a builder, I really dislike this, so I will try to provide guides to connect with currently popular platforms, especially in the Blockchain field, including Kaia.
 
 ## What is Ethers?
