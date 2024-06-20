@@ -13,6 +13,9 @@ Whether you're a hackathon participant or an ambitious entrepreneur looking to e
 ### Docs
 Read the [docs](/docs/README.md) in the repository for more information.
 
+### Bounty
+Information about our Open Source contribution bounty program
+
 ### Contracts
 Contains many complete smart contract implementations of various DApps
 
