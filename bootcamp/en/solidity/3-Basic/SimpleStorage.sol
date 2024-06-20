@@ -27,11 +27,11 @@ contract SimpleStorage {
 
     //  this function will store the information of a new person with name, age, overEighteen, assetValue, debtValue
     function storePerson(string memory _name, uint8 _age, bool _overEighteen, uint256 _assetValue, int256 _debtValue) public returns (Person memory person) {
-        _assetValue *= 1e18; // Chuyển đổi giá trị tài sản sang đơn vị wei
-        _debtValue *= 1e18; // Chuyển đổi giá trị nợ sang đơn vị wei
-        // Thêm thông tin của person mới vào danh sách listOfPeople
+        _assetValue *= 1e18; // Convert asset value to wei unit
+        _debtValue *= 1e18; // Convert debt value to wei unit
+        // Add information of the new person to the listOfPeople array
         listOfPeople.push(Person({name: _name, age: _age, overEighteen: _overEighteen, uuid: msg.sender, assetValue: _assetValue, debtValue: _debtValue}));
-        // Thêm thông tin của person mới vào mapping uuidToPerson
+        // Add information of the new person to the uuidToPerson mapping
         uuidToPerson[msg.sender] = Person({name: _name, age: _age, overEighteen: _overEighteen, uuid: msg.sender, assetValue: _assetValue, debtValue: _debtValue});
         return Person({name: _name, age: _age, overEighteen: _overEighteen, uuid: msg.sender, assetValue: _assetValue, debtValue: _debtValue});
     }
