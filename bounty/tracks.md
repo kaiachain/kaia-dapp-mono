@@ -79,27 +79,6 @@ Contribute to Kaia Docs (https://docs.kaia.io/)
 
 ---
 
-## Contribute a DApp that leverages Mint Club v2 SDK
-
-Contribute a DApp that leverages Mint Club v2 SDK
-
-### Rewards 
-- 500 KLAY per `merged` PR/submission
-
-### Details
-- Based on the Mint Club v2 SDK (https://sdk.mint.club/)
-- Propose an idea beforehand on the github repo issue tab (https://github.com/kaiachain/kaia-dapp-mono/issues)
-- Full v0 implementation that users can use. Doesn't have to be completed but core functionalities should be usable.
-- Can be forks
-
-### Ideas
-- Improved frontend
-
-### Rules
-- Open source
-- Bounty submission should be of good quality (well tested for core functionalities)
-
----
 ## Contribute an Open Source Developer Tool
 
 ### Rewards

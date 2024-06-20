@@ -10,6 +10,8 @@ Go to [`tracks.md`](/bounty/tracks.md) for more details (yes, it's longgggggggg 
 1. Fork this repo to your personal GitHub
 2. Go to [`submissions.md`](/bounty/submissions.md) and edit the file according to instruction
 3. Save and open a Pull Request
+4. When your Pull Request has been merged, proceed to [DoraHacks](https://dorahacks.io) to create an account with your GitHub.
+5. Go to this [Kaia Organization page](https://dorahacks.io/org/kaiachain/dao-bounty) to submit bounty in the correct track.
 
 ## Support
 Tag us directly on GitHub or X, or send us an email.
