@@ -10,35 +10,36 @@ The included smart contract templates and front-end sample codes aim to provide 
 Whether you're a hackathon participant or an ambitious entrepreneur looking to establish the next successful project, this toolkit is designed with you in mind.
 
 ## Getting started
-### Docs
-Read the [docs](/docs/README.md) in the repository for more information.
 
-### Bounty
+### [Bounty](/bounty/)
 Information about our Open Source contribution bounty program
 
-### Contracts
+### [Contracts](/contracts/)
 Contains many complete smart contract implementations of various DApps
 
-### Frontend
+### [Frontend](/frontend/)
 Contains implementation details of various frontend frameworks for EVM and guide to implement Kaia specific features with copy/paste code samples
 
-### Examples
+### [Examples](/examples/)
 List of sample implementations contributed by the community for various integrations
 
-### dApps
+### [dApps](/dapps/)
 List of cool OSS dApps for you to check out 
 
-### Docker
+### [Docker](/docker/)
 Dockerized app/infra samples
 
-### Kaia-hacker-house
+### [Kaia Hacker House](/kaia-hacker-house/)
 Contains details of Kaia hacker house, bounty program, workshops, etc.
 
-### Learn
+### [Learn](/learn/)
 Includes various information pieces for reference
 
-### Workshops
+### [Workshops](/workshops/)
 Contains workshop exercises
+
+### [Developer Ambassadors](/dev-ambassadors/)
+Contains information about our developer ambassador program
 
 ## FAQ
 ### Why copy/paste and not packaged as a container app?
