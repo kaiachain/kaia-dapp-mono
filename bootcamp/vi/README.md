@@ -3,7 +3,7 @@
 ## Nội dung
 Nội dung được chia thành 2 phần:
 1. Solidity
-   - Intro: Giới thiệu về Klaytn và căn bản blockchain.
+   - Intro: Giới thiệu về Kaia và căn bản blockchain.
    - SetUp: Thiết lập môi trường và các công cụ bạn sẽ sử dụng cho phát triển DApp.
    - Basic: Các kiến thức căn bản trong Solidity.
    - Advanced: Các kiến thức nâng cao trong Solidity.
