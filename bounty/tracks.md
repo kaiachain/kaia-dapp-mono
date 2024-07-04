@@ -1,7 +1,7 @@
 # Current bounty program
 
 > [!NOTE]  
-> Last updated: 2024-06-09. We did a major revamp of the bounty program to make it better for everyone involved.
+> Last updated: 2024-07-04. We did a major revamp of the bounty program to make it better for everyone involved.
 
 ## Overview
 There are 5 main tracks:
