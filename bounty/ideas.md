@@ -1,4 +1,3 @@
 # Ideas for submissions
 
-4 main tracks
-- 
+## in no order of preference
