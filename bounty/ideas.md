@@ -1,5 +1,4 @@
 # Ideas for submissions
 
-Things we are looking for:
-
-- thinking a bit...
+4 main tracks
+- 
