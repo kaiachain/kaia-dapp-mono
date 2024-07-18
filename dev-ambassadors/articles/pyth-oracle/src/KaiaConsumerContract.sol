@@ -17,8 +17,8 @@ contract KaiaConsumerContract {
     }
 
     function getPrice() public view returns (PythStructs.Price memory) {
-        // ETH/USD priceID
-        bytes32 priceID = 0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace;
+        // KLAY/USD priceID
+        bytes32 priceID = 0xde5e6ef09931fecc7fdd8aaa97844e981f3e7bb1c86a6ffc68e9166bb0db3743;
         return pyth.getPrice(priceID);
     }
 
