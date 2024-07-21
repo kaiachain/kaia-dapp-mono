@@ -1,90 +1,97 @@
-# Instructions for connecting Kaia blockchain with Rust - P1
-A common issue I've heard about in Rust is the complexity of implementing code structures that interact with other platforms. This has caused many projects to halt and switch to other programming languages. However, as a builder, I really dislike this, so I will try to provide guides to connect with currently popular platforms, especially in the Blockchain field, including Kaia.
+# Instructions for interacting with Ethereum using Rust with Alloy library
+A common issue I've heard about in Rust is the complexity of implementing code structures that interact with other platforms. This has caused many projects to halt and switch to other programming languages. However, as a builder, I really dislike this, so I will try to provide guides to connect with currently popular platforms, especially in the Blockchain field, including Ethereum.
 
-## What is Ethers?
-Ethers is the first library used for dApps to interact with the EVM blockchain ecosystem. Initially, it was implemented in JavaScript and has been widely used to interact with the Ethereum blockchain.
+## Transition from Ethers to Alloy
+Ethers has been the go-to library for dApps to interact with the EVM blockchain ecosystem, initially implemented in JavaScript and widely used to interact with the Ethereum blockchain. However, the landscape is evolving, and Alloy is emerging as a powerful library for Rust developers to interact with Ethereum.
 
-## Is there a version of this library for Rust?
-Of course, there is! Today, I will guide you on how to interact with and use this powerful library to connect and interact with EVM blockchains, including Kaia.
+## What is Alloy?
+Alloy is a Rust library designed to simplify interactions with Ethereum and other EVM-compatible blockchains. It offers a robust set of tools for managing wallets, contracts, and transactions in a more Rust-centric way.
 
 Let's get started!
 
-## Adding the Library to Your Project
+## Adding the Alloy Library to Your Project
 First, to use this library, we can add it to our project as follows:
-
 ```toml
     [dependencies]
-    ethers = { version = "2.0", features = ["legacy"] }
+    alloy = "0.1"
+    tokio = { version = "1", features = ["full"] }
+    eyre = "0.6"
+    serde = { version = "1", features = ["derive"] }
+    serde_json = "1.0"
+```
+
+## Importing the Alloy Library
+```rust
+    use alloy::{
+        contract::{ContractInstance, Interface}, 
+        dyn_abi::DynSolValue, 
+        network::{Ethereum, TransactionBuilder}, 
+        primitives::{address, U256}, 
+        providers::{Provider, ProviderBuilder}, 
+        rpc::types::TransactionRequest, 
+        transports::http::{Client, Http}
+    };
+    use eyre::Result;
+    use serde_json;
 ```
 
 ## Importing Your Wallet into the Project
-
 ```rust
-    // Private key hex (insecure) - Use a secure storage method like a `.env` file
-    let private_key_hex = "<PRIVATE_KEY>";
+    use alloy::signers::local::PrivateKeySigner;
 
-    // Create a LocalWallet from the private key hex with error handling
-    let wallet = LocalWallet::from_str(private_key_hex).map_err(|e| Box::new(e) as Box<dyn std::error::Error>)?;
+    let signer: PrivateKeySigner = "<YOUR-PRIVATEKEY>".parse().expect("should parse private key");
+    let wallet = EthereumWallet::from(signer);
 ```
-
 This way, we have successfully imported the crypto wallet into the project.
 
-## Wallet Details
-Since the wallet type is Wallet<ethers_core::k256::ecdsa::SigningKey>, we can extract components such as signer, address, and chain_id. Here is the code snippet from the library representing the Wallet<ethers_core::k256::ecdsa::SigningKey> object:
-
+## Connecting to the Smart Contract
 ```rust
-    pub struct Wallet<D: PrehashSigner<(RecoverableSignature, RecoveryId)>> {
-        /// The Wallet's private key
-        pub(crate) signer: D,
-        /// The wallet's address
-        pub(crate) address: Address,
-        /// The wallet's chain ID (for EIP-155)
-        pub(crate) chain_id: u64,
-    }
+    let contract_address = address!("447E5c95E9e81f0bE6dAcd5c25D3A814D2dA0d41");
+
+    // Get the contract ABI.
+    let path = std::env::current_dir()?.join("abi/Counter.json");
+
+    // Read the artifact which contains abi, bytecode, deployedBytecode and metadata.
+    let artifact = std::fs::read(path).expect("Failed to read artifact");
+    let json: serde_json::Value = serde_json::from_slice(&artifact)?;
+
+    // Get abi from the artifact.
+    let abi_value = json.get("abi").expect("Failed to get ABI from artifact");
+    let abi = serde_json::from_str(&abi_value.to_string())?;
+
+    // Create a new ContractInstance of the Counter contract from the abi
+    let contract: ContractInstance<Http<Client>, _, Ethereum> =
+        ContractInstance::new(contract_address, provider.clone(), Interface::new(abi));
 ```
 
-## Creating a Global Wallet Variable
-Since you will call the wallet many times during the project's build process, I created a global variable to store it:
+## Creating a Provider
 ```rust
-    static mut WALLET: Option<Arc<Mutex<LocalWallet>>> = None;
+    let provider_url = "<https://public-en-baobab.klaytn.net>".parse()?;
+    let provider = ProviderBuilder::new().wallet(wallet.clone()).on_http(provider_url);
 ```
 
-Then, initialize it in the same function as the wallet variable:
+## Calling Functions in a Smart Contract on Ethereum Blockchain
 ```rust
-    unsafe {
-        WALLET = Some(Arc::new(Mutex::new(wallet.clone())));
-    }
+    // Set the number to 42.
+    let number_value = DynSolValue::from(U256::from(42));
+    let tx_hash = contract.function("setNumber", &[number_value])?.send().await?.watch().await?;
+
+    println!("Set number to 42: {tx_hash}");
+
+    // Increment the number to 43.
+    let tx_hash = contract.function("increment", &[])?.send().await?.watch().await?;
+
+    println!("Incremented number: {tx_hash}");
 ```
 
-## Accessing the Wallet in a New Function
-You can create a new function to call the wallet as follows:
-
+## Retrieving the Number from the Smart Contract
 ```rust
-    let mut address_user = String::new(); // Initialize an empty variable to avoid warnings
-    unsafe {
-        if let Some(wallet) = &WALLET {
-            // Lock the mutex to access the wallet
-            if let Ok(guard) = wallet.lock() {
-                // Access the wallet's methods
-                address_user = guard.address().to_string();
-            }
-        }
-    }
-    println!("address: {:?}", address_user.clone());
+    // Retrieve the number, which should be 43.
+    let number_value = contract.function("number", &[])?.call().await?;
+    let number = number_value.first().unwrap().as_uint().unwrap().0;
+    assert_eq!(U256::from(43), number);
+
+    println!("Retrieved number: {number}");
 ```
 
-## Calling View Functions in a Smart Contract on Kaia Blockchain
-```rust
-    let contract_address = "<CONTRACT_ADDRESS>".parse::<Address>()?;
-    abigen!(<NAME_CONTRACT>, "<ABI_CONTRACT_PATH>");
-    let rpc_url = format!("<RPC_URL>");
-    let provider = Provider::<Http>::try_from(rpc_url.as_str())?;
-    let provider = Arc::new(provider);
-    let contract = <NAME_CONTRACT>::new(contract_address, provider.clone());
-
-    let function_name = "<FUNCTION_NAME>";
-    let function_params = ();
-    let result: String = contract.method(function_name, function_params)?.call().await?;
-    println!("{}", result);
-```
-Today's session is quite long. I promise to guide you on calling payable functions and signing transactions on the Kaia blockchain in the next session!
+Thank you for reading this article. I hope you find it helpful.
