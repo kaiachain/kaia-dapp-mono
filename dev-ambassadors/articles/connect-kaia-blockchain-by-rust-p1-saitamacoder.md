@@ -1,11 +1,11 @@
-# Instructions for interacting with Ethereum using Rust with Alloy library
-A common issue I've heard about in Rust is the complexity of implementing code structures that interact with other platforms. This has caused many projects to halt and switch to other programming languages. However, as a builder, I really dislike this, so I will try to provide guides to connect with currently popular platforms, especially in the Blockchain field, including Ethereum.
+# Instructions for interacting with Kaia using Rust with Alloy library
+A common issue I've heard about in Rust is the complexity of implementing code structures that interact with other platforms. This has caused many projects to halt and switch to other programming languages. However, as a builder, I really dislike this, so I will try to provide guides to connect with currently popular platforms, especially in the Blockchain field, including Kaia.
 
 ## Transition from Ethers to Alloy
-Ethers has been the go-to library for dApps to interact with the EVM blockchain ecosystem, initially implemented in JavaScript and widely used to interact with the Ethereum blockchain. However, the landscape is evolving, and Alloy is emerging as a powerful library for Rust developers to interact with Ethereum.
+Ethers has been the go-to library for dApps to interact with the EVM blockchain ecosystem, initially implemented in JavaScript and widely used to interact with the Kaia blockchain. However, the landscape is evolving, and Alloy is emerging as a powerful library for Rust developers to interact with Kaia.
 
 ## What is Alloy?
-Alloy is a Rust library designed to simplify interactions with Ethereum and other EVM-compatible blockchains. It offers a robust set of tools for managing wallets, contracts, and transactions in a more Rust-centric way.
+Alloy is a Rust library designed to simplify interactions with Kaia and other EVM-compatible blockchains. It offers a robust set of tools for managing wallets, contracts, and transactions in a more Rust-centric way.
 
 Let's get started!
 
@@ -64,13 +64,13 @@ This way, we have successfully imported the crypto wallet into the project.
         ContractInstance::new(contract_address, provider.clone(), Interface::new(abi));
 ```
 
-## Creating a Provider
+## Creating a Provider for your wallet on Kaia Blockchain
 ```rust
-    let provider_url = "<https://public-en-baobab.klaytn.net>".parse()?;
+    let provider_url = "https://public-en-baobab.klaytn.net".parse()?;
     let provider = ProviderBuilder::new().wallet(wallet.clone()).on_http(provider_url);
 ```
 
-## Calling Functions in a Smart Contract on Ethereum Blockchain
+## Calling Functions in a Smart Contract on Kaia Blockchain
 ```rust
     // Set the number to 42.
     let number_value = DynSolValue::from(U256::from(42));
