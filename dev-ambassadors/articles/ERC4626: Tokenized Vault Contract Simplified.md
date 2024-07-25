@@ -273,10 +273,10 @@ When implementing ERC4626 vault contracts, it’s essential to address potential
 1. Inflation Risk
 Description: Inflation risk occurs when the issuance of vault tokens (shares) increases disproportionately compared to the underlying assets, leading to a dilution of value for existing token holders.
 Mitigation: Implement strict controls on the minting process to ensure shares are issued only when corresponding assets are deposited. Regular audits and monitoring of the vault’s total assets versus total shares can help detect and prevent inflationary scenarios.
-1. Smart Contract Vulnerabilities
+2. Smart Contract Vulnerabilities
 Description: Smart contracts can have bugs or vulnerabilities that could be exploited by malicious actors.
 Mitigation: Conduct thorough code audits by reputable third-party security firms. Use established libraries and frameworks like OpenZeppelin to minimize the risk of vulnerabilities. Implement bug bounty programs to incentivize the community to find and report bugs.
-1. Front-Running Attacks
+3. Front-Running Attacks
 Description: Front-running occurs when a malicious actor observes pending transactions and takes advantage of this knowledge to execute a transaction ahead of the observed one.
 Mitigation: Implement transaction ordering mechanisms such as committing transactions in batches or using cryptographic techniques to hide transaction details until they are mined.
 
