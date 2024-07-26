@@ -15,3 +15,5 @@ Sample submission is below. Syntax is
 - [K-Edu - E-Learning application based on the Klaytn Blockchain Ecosystem](https://k-edu.vercel.app/) - [@MichaelOmoniyi](https://github.com/MichaelOmoniyi) | Repos: [K-edu](https://github.com/MichaelOmoniyi/klaytn-dapp-toolkit/tree/main/frontend/k-edu)
 - [Telegram bot to check wallet/token balance and convert value to different fiat currencies](https://github.com/anudeep11k/TELEBOTKLAY) - [@anudeep11k](https://github.com/anudeep11k)
 - [Kaia Foundry template](https://github.com/haxxsniper/kaia-foundry-template) - [@haxxsniper](https://github.com/haxxsniper)
+- [Telegram bot to trade Token on Dex](https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot) - [@chauanhtuan185](https://github.com/chauanhtuan185)
+
