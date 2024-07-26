@@ -267,6 +267,8 @@ Note: The beforeWithdraw and afterDeposit hooks are used to hook into the strate
 ## VAULT STRATEGY:
 Vault strategy is the strategy applied to bring profit to the vault and increase the total assets in the vault. The strategy can be in the same contract or a different contract, but it is unique to different protocols and this article doesn’t cover that. You may need to do your research about how to hook a strategy into the vault contract. Other protocols like the fei protocol implemented a vault router that routes users from one vault to another of the same underlying token. It all depends on your design and strategy.
 
+[Full Implementation of ERC46262](https://github.com/PaulElisha/ERC4626-TokenizedVault)
+
 ### SECURITY CONSIDERATIONS — ERC4626 Vault Contracts:
 When implementing ERC4626 vault contracts, it’s essential to address potential security risks to ensure the safety and reliability of the protocol. Below are some key security considerations:
 
