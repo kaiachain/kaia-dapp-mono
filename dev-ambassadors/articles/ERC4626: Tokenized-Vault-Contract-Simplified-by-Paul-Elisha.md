@@ -6,6 +6,8 @@ One of the common problems in DeFi is the difference in the smart contract imple
 
 ## WHAT IS A VAULT?
 
+![Architecture Diagram](https://miro.medium.com/v2/resize:fit:640/format:webp/1*Hy1CoFQmLbDkq_xuxjI76w.jpeg)
+
 Vaults are smart contracts and their purpose is to accrue yield as long as you have your tokens locked. Each vault can have its strategy for accruing yield which may include: providing liquidity or lending the asset token.
 
 Example: If you deposit DAI into a vault and receive vDAI and over time as your DAI accrues value, you will receive more vDAI. The vDAI is a yield-bearing token representing a fractional ownership of the overall asset locked in the pool. If the value of the asset token grows then the value of your yield-bearing token grows because you own a stake in the pool.
@@ -138,7 +140,11 @@ The total amount of shares to mint has to be proportional to the increase in the
 
 When a user deposits x amount, it is added to the balance of the total supply and the total assets. So; (X + B)/B(Initial balance) = (S + T)/T. Then we will find the subject of the formula.
 
+![Architecture Diagram](https://miro.medium.com/v2/resize:fit:640/format:webp/1*kdCUfggOIXvbJzc4_ymBfA.jpeg)
+
 The inverse of the deposit calculation applies when a user wants to withdraw.
+
+![Architecture Diagram](https://miro.medium.com/v2/resize:fit:640/format:webp/1*0YusiVwoNalidDRg3E-xxA.jpeg)
 
 ## BUILDING A VAULT CONTRACT:
 ### Prerequisites:
