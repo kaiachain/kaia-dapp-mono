@@ -16,4 +16,5 @@ Sample submission is below. Syntax is
 - [Telegram bot to check wallet/token balance and convert value to different fiat currencies](https://github.com/anudeep11k/TELEBOTKLAY) - [@anudeep11k](https://github.com/anudeep11k)
 - [Kaia Foundry template](https://github.com/haxxsniper/kaia-foundry-template) - [@haxxsniper](https://github.com/haxxsniper)
 - [Telegram bot to trade Token on Dex](https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot) - [@chauanhtuan185](https://github.com/chauanhtuan185)
+- [Kaia Decentralized Multisig Wallet](https://kaiasafelite.xyz/) - [@JGatsby-29](https://github.com/JGatsby-29)
 
