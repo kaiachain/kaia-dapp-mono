@@ -17,5 +17,5 @@ Sample submission is below. Syntax is
 - [Kaia Foundry template](https://github.com/haxxsniper/kaia-foundry-template) - [@haxxsniper](https://github.com/haxxsniper)
 - [Telegram bot to trade Token on Dex](https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot) - [@chauanhtuan185](https://github.com/chauanhtuan185)
 - [Kaia Decentralized Multisig Wallet](https://kaiasafelite.xyz/) - [@JGatsby-29](https://github.com/JGatsby-29)
-- [buildstation biochip](https://hq.buildstation.org) - (@bsintern-uwu)(https://github.com/bsintern-uwu)
+- [buildstation biochip](https://hq.buildstation.org) - [@buildstationorg](https://github.com/buildstationorg/hq-dashboard)
 
