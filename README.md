@@ -1,15 +1,16 @@
 ![Lone explorer in the dark forest](home-banner.png)
-# Kaia DApp Mono 🧰 (currently being migrated from Klaytn)
+# Kaia DApp Mono 🧰
 
-> Start your web3 journey on Kaia with a complete DApp monorepo
+> Start your web3 journey on Kaia with this DApp monorepo
 
-**Kaia DApp Mono** takes an unopinionated approach to DApp development. Instead of forcing you to adopt our tech stack of choice, we provide you with code snippets that you can use to copy and paste into whichever framework/technical stack that you are using. You can always refer to the original framework documentation for troubleshooting as well as our Troubleshooting section for each component.
+**Kaia DApp Mono** takes an unopinionated approach to DApp development. Instead of forcing you to adopt our tech stack of choice, we provide you with code snippets, guidance, references, samples, public projects contributed by the community, bounty that you can leverage into whichever framework/technical stack/project that you are using or building.
 
-The included smart contract templates and front-end sample codes aim to provide you with everything you need to run a web product, along with additional tools, documentation, and tricks for building onchain.
+The included resources aim to provide you with everything you need to launch a proof of concept, minimal viable product or even completed product. Comes with additional tools, documentation, and tricks for building onchain.
 
-Whether you're a hackathon participant or an ambitious entrepreneur looking to establish the next successful project, this toolkit is designed with you in mind.
+Whether you're a hackathon participant or an ambitious entrepreneur looking to launch the next unicorn protocol, this monorepo is designed with you in mind.
 
 ## Getting started
+Below is the directory of the monorepo.
 
 ### [Bounty](/bounty/)
 Information about our Open Source contribution bounty program
@@ -20,11 +21,14 @@ Contains many complete smart contract implementations of various DApps
 ### [Frontend](/frontend/)
 Contains implementation details of various frontend frameworks for EVM and guide to implement Kaia specific features with copy/paste code samples
 
+### [Docs](/docs/)
+Technical information related to Kaia that you may find useful
+
 ### [Examples](/examples/)
 List of sample implementations contributed by the community for various integrations
 
 ### [dApps](/dapps/)
-List of cool OSS dApps for you to check out 
+List of cool dApps on Kaia 
 
 ### [Docker](/docker/)
 Dockerized app/infra samples
@@ -33,7 +37,7 @@ Dockerized app/infra samples
 Contains details of Kaia hacker house, bounty program, workshops, etc.
 
 ### [Learn](/learn/)
-Includes various information pieces for reference
+Library of tutorials contributed by the Kaia team and the community
 
 ### [Workshops](/workshops/)
 Contains workshop exercises
@@ -41,16 +45,8 @@ Contains workshop exercises
 ### [Developer Ambassadors](/dev-ambassadors/)
 Contains information about our developer ambassador program
 
+### [ctf](/ctf/)
+Various Capture-The-Flag challenges for you to try out your security skills
+
 ## FAQ
-### Why copy/paste and not packaged as a container app?
-The idea behind this is to give you ownership and control over the code, allowing you to decide how the components of your DApp are built.
-
-Start with some sensible defaults, then customize all the codes to your needs.
-
-One of the drawback of other opinionated tools is that they often stick to one technical stack which might not fit for everyone.
-
-### Do you plan to publish it as a container app?
-Not at the moment.
-
-### Which frameworks are supported?
-You can use any development framework that supports EVM. For example, [Hardhat](https://hardhat.org), [Foundry](https://getfoundry.sh/), [Wagmi](https://wagmi.sh/), [Thirdweb](https://thirdweb.com/). You can also use dedicated toolings released by the Kaia Foundation [here](https://github.com/Kaia)
+> we will add a FAQ section soon :D
