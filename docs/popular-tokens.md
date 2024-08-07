@@ -1,5 +1,17 @@
 # Popular tokens
 
+## WKLAY (Kaia mainnet)
+```
+0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432
+```
+Explorer: https://klaytnfinder.io/token/0x19Aac5f612f524B754CA7e7c41cbFa2E981A4432
+
+## WKLAY (Kairos testnet)
+```
+0x043c471bee060e00a56ccd02c0ca286808a5a436
+```
+Explorer: https://baobab.klaytnfinder.io/token/0x043c471bee060e00a56ccd02c0ca286808a5a436
+
 ## Stargate USDC.e (bridged USDC/non-native)
 ```
 0xe2053bcf56d2030d2470fb454574237cf9ee3d4b
