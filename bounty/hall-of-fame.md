@@ -1,11 +1,10 @@
-# Submissions
+# Hall of Fame 🏆
+Upon getting the `cleared` status for your issue, you can open a PR and induct yourself into this Hall of Fame.
 
-## List
-
-Sample submission is below. Syntax is
+Sample addition is below. Syntax is:
 
 ```
-- [example submission link](https://github.com/example-link) - [github handle](https://github.com/github-handle)
+- [example submission title](https://github.com/example-link) - [github handle](https://github.com/github-handle) - additional information if necessary
 ```
 
 - [example submission link](https://github.com/kaiachain.kaia-dapp-mono) - [@kaiachain](https://github.com/kaiachain)

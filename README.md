@@ -45,8 +45,8 @@ Contains workshop exercises
 ### [Developer Ambassadors](/dev-ambassadors/)
 Contains information about our developer ambassador program
 
-### [ctf](/ctf/)
+### [CTF](/ctf/)
 Various Capture-The-Flag challenges for you to try out your security skills
 
-## FAQ
+## FAQs
 > we will add a FAQ section soon :D

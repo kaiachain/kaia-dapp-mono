@@ -14,4 +14,8 @@
 - Onchain arts
 - NFT memberships
 - Stablecoin payments
-- ...and more but we thinking
+- Optimistic oracles
+- Prediction markets
+- Perp trading
+- Lending protocol
+- ...and more but we thinking 🤔
