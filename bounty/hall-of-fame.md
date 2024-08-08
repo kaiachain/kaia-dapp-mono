@@ -14,21 +14,10 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 <br>
 <br>
 <br>
-<br>
 
-
-██╗  ██╗ █████╗ ██╗     ██╗          ██████╗ ███████╗    ███████╗ █████╗ ███╗   ███╗███████╗
-██║  ██║██╔══██╗██║     ██║         ██╔═══██╗██╔════╝    ██╔════╝██╔══██╗████╗ ████║██╔════╝
-███████║███████║██║     ██║         ██║   ██║█████╗      █████╗  ███████║██╔████╔██║█████╗  
-██╔══██║██╔══██║██║     ██║         ██║   ██║██╔══╝      ██╔══╝  ██╔══██║██║╚██╔╝██║██╔══╝  
-██║  ██║██║  ██║███████╗███████╗    ╚██████╔╝██║         ██║     ██║  ██║██║ ╚═╝ ██║███████╗
-╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝     ╚═════╝ ╚═╝         ╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
-
-
-                                                                                                          
-<br>                                
-<br>                                                                      
-<br>                                                                                                                                            
+![Goats](/bounty/images/goats.png)
+<br>                                                            
+        
 ## [chauanhtuan185](https://github.com/chauanhtuan185)
 - [Wibu bot](https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot) - Telegram bot to trade Tokens on DGSwap
 
