@@ -40,3 +40,17 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 
 ## [anudeep11k](https://github.com/anudeep11k)
 - [TELEBOTKLAY](https://github.com/anudeep11k/TELEBOTKLAY) - Telegram bot to check wallet/token balance and convert value to different fiat currencies
+
+## [paulelisha](https://github.com/paulelisha)
+![Paul](https://avatars.githubusercontent.com/u/125181565?s=400&u=c87ab6e0b8e2b65421cbc73f46801cf16ed49b27&v=4)
+
+- [oklink sdk in multiple languages] - Built oklink sdk for the kaiachain in multiple languages, this is to ease the query of blockchain data for development purposes.
+- [oklink-sdk-go](https://github.com/PaulElisha/oklink-sdk-kaiachain-go)
+- [oklink-sdk-rs](https://github.com/PaulElisha/oklink-sdk-kaiachain-rs)
+- [oklink-sdk-py](https://github.com/PaulElisha/oklink-sdk-kaiachain-py)
+- [oklink-sdk-ts](https://github.com/PaulElisha/oklink-sdk-kaiachain-ts)
+
+
+- [Foundry Template for using Pyth PriceFeed](https://github.com/PaulElisha/foundryTemplate-PythPriceFeed) - This is a template smart contract that demonstrates the usage and integration of Pyth price feeds for accurate price conversion of the Klay token in USD, it implements a MockPyth contract, which is designed to help with the creation of price update data on a local test chain instead of querying the hermes api.
+
+- [Foundry Template for fetching Orakl priceFeed Address and integrating Orakl VRF](https://github.com/PaulElisha/kaiachain-foundryTemplate--pricefeedManager-PriceConverter) - This is a template smart contract that demonstrates the query and usage of the Orakl priceFeed address for multiple supported tokens. Also, it shows the integration of Orakl VRF. 
