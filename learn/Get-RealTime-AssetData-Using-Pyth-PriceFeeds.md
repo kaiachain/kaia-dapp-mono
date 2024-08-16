@@ -175,7 +175,7 @@ Make a curl request to fetch the priceUpdateData using the priceId 0xde5e6ef0993
 curl https://hermes.pyth.network/api/latest_vaas?ids[]=0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace
 ```
 
-Once you have the priceUpdateData, you can use Foundry’s cast command-line tool to interact with the smart contract and call the getLatestPrice(bytes[]) function to fetch the latest price of ETH.
+Once you have the priceUpdateData, you can use Foundry’s cast command-line tool to interact with the smart contract and call the getLatestPrice(bytes[]) function to fetch the latest price of KLAY.
 
 To call the getLatestPrice(bytes[]) function of the smart contract, run the following command, replacing <DEPLOYED_ADDRESS> with the address of your deployed contract, and <PRICE_UPDATE_DATA> with the priceUpdateData returned by the Hermes endpoint:
 
