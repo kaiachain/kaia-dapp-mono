@@ -84,3 +84,12 @@ Contract Address: 0x7bE02dECC3DC3BE771d851fcF457Bd9bAA99010A
 Block: 163073556
 Paid: 0.14547203 ETH (2644946 gas * 55 gwei)
 ```
+
+## Factory (maybe helpful)
+
+```bash
+✅  [Success]Hash: 0x5f3119a1f21c3c00f109f02591b23aeff404bd7a00172761b8d0948c1f145cde
+Contract Address: 0x577384f28445A8E62a4b0AaACdE7f21f78200b7E
+Block: 163257440
+Paid: 0.021949125000877965 ETH (877965 gas * 25.000000001 gwei)
+```
