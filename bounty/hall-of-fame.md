@@ -23,9 +23,10 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 
 ## [haxxsniper](https://github.com/haxxsniper)
 - [Kaia Foundry template](https://github.com/haxxsniper/kaia-foundry-template) - A sensible default template with example codes for building DApp on Kaia
-- [BlockCMD Drop](https://drop.blockcmd.com) - Highly efficient KLAY, ERC20 and NFT airdrop tool on Kaia | Repos: [Smart contracts](https://github.com/haxxsniper/gaslite-drop-contracts) / [UI](https://github.com/haxxsniper/gaslite-ui)
+- [BlockCMD Drop]([https://drop.blockcmd.com](https://blockcmd.com/drop)) - Highly efficient KLAY, ERC20 and NFT airdrop tool on Kaia | Repos: [Smart contracts](https://github.com/haxxsniper/gaslite-drop-contracts) / [UI](https://github.com/haxxsniper/gaslite-ui)
 - [OKLink SDK in Typescript](https://github.com/haxxsniper/oklink-ts) - Asynchronous SDK for OKLink Block Explorer API in Typescript
-- [BlockCMD Contract Inspector](https://blockcmd.com) - An opensource interactive UI for all the smart contracts on Kaia | Repos: [App repo](https://github.com/blockcmd/blockcmd-app)
+- [BlockCMD Contract Inspector](https://blockcmd.com/inspect) - An opensource interactive UI for all the smart contracts on Kaia | Repos: [App repo](https://github.com/blockcmd/blockcmd-app)
+- [dexCMD](https://dexcmd.com) - A DeFi LP calculator to manage positions with ease | Repos: [App repo](https://github.com/blockcmd/dexcmd)
 
 ## [preetsinghmakkar](https://github.com/preetsinghmakkar)
 - [TokenMaker](https://tokenmaker-ruddy.vercel.app/) - Create Custom ERC20 Tokens Easily on Kaia
