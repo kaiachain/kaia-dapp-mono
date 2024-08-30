@@ -6,4 +6,4 @@
 ## Example Implementation
 
 1. [ethers-js-example](https://github.com/ayo-klaytn/ethers-js-example)
-1. [kaikas-ethersjs-example](https://github.com/ayo-klaytn/kaikas-ethersjs-example)
+2. [kaikas-ethersjs-example](https://github.com/ayo-klaytn/kaikas-ethersjs-example)
