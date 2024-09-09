@@ -24,4 +24,4 @@ Nội dung được chia thành 2 phần:
 - Bạn đọc các tài liệu trong các thư mục và thực hiện bài tập theo hướng dẫn.
 
 ## Video
-[![Kaia DApp Bootcamp VN Giới thiệu về chương trình](https://img.youtube.com/vi/sCiKBaqAzRo/0.jpg)](https://www.youtube.com/watch?v=sCiKBaqAzRo)
+[![Kaia DApp Bootcamp VN Giới thiệu về chương trình](https://img.youtube.com/vi/sCiKBaqAzRo/0.jpg)](https://www.youtube.com/watch?v=sCiKBaqAzRo&list=PLCgMXdNzV13X0wED74de7Xb6OE31X_OTo)
