@@ -22,3 +22,6 @@ Nội dung được chia thành 2 phần:
 ## Hướng dẫn học
 - Bạn sẽ bắt đầu đi từ phần Solidity rồi đến Frontend và bắt đầu tuần tự theo số thứ tự đã đánh dấu.
 - Bạn đọc các tài liệu trong các thư mục và thực hiện bài tập theo hướng dẫn.
+
+## Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sCiKBaqAzRo?si=llgAfJPcsQ_OVYgt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
