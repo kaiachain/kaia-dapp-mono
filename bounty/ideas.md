@@ -18,4 +18,8 @@
 - Prediction markets
 - Perp trading
 - Lending protocol
+- AA wallets
+- Normal wallets
+- User onboarding tools
+- Consumer apps
 - ...and more but we thinking 🤔
