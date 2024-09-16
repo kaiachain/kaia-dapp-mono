@@ -1,7 +1,7 @@
-# KSL Castle Raids
+# Token2049 Castle Raids
 
 ## Briefing
-Welcome folks to KSL catsle raids. You will be our main attack force to raid the enemy castles. You can read the detail rules below.
+Welcome folks to Token2049 catsle raids. You will be our main attack force to raid the enemy castles. You can read the detail rules below.
 
 ## Rules
 Below is the 3 main attack plans, graded based on difficulty.
@@ -28,7 +28,7 @@ To make it easy to find, our scouts have reported back with a smart contract sto
 Included in this attack kit, you can find the relevant ABIs to be used in your attack.
 
 ## Prizes
-After completion, ask one of the Kaia team members at the KSL for your rewards.
+After completion, ask one of the Kaia team members at the Token2049 for your rewards.
 
 ## Submission guidelines
 1. First, please register by opening a PR adding a folder with the same name as your github handle in the [`submissions` folder](/ctf/submissions/) We have included an [example](/ctf/submissions/zxstim/) inside for your reference. Your folder structure would look like this:
@@ -39,7 +39,7 @@ submissions/
 ```
 Inside your `your-name.md` file, add the title to be:
 ```
-# KSL Castle Raids
+# Token2049 Castle Raids
 ```
 You will use this file for your own submission later.
 2. Review the attack kit, select one address for each plan from `CastleMap` contract then attack.  
