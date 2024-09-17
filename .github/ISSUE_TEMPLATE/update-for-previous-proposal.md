@@ -1,7 +1,7 @@
 ---
 name: Update for a pervious proposal
 about: Use this template to submit an update for a previous proposal
-title: 'Update: [description] - [name_of_previous_proposal]'
+title: 'Update: [description]'
 labels: ''
 assignees: zxstim
 
