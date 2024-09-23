@@ -56,6 +56,7 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 
 ## [LurkyLunk](https://github.com/LurkyLunk)
 - [The Kiln](https://kiln.pro/) - Easy NFT minting Tools | Repos: [Frontend](https://github.com/Masxon-Studios/THEKILN.git) / [contracts](https://github.com/Masxon-Studios/simple-klaytn-nft.git)
+- [Clayton Bot] - Discord NFT Badge Minting Bot | Repos: [backend](https://github.com/Masxon-Studios/Discord_CBB_Contracts.git) / [contracts](https://github.com/Masxon-Studios/Discord_CBB_Contracts.git)
 
 - [Foundry Template for using Pyth PriceFeed](https://github.com/PaulElisha/foundryTemplate-PythPriceFeed) - This is a template smart contract that demonstrates the usage and integration of Pyth price feeds for accurate price conversion of the Klay token in USD, it implements a MockPyth contract, which is designed to help with the creation of price update data on a local test chain instead of querying the hermes api.
 
