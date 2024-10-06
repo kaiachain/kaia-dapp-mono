@@ -61,3 +61,8 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 - [Foundry Template for using Pyth PriceFeed](https://github.com/PaulElisha/foundryTemplate-PythPriceFeed) - This is a template smart contract that demonstrates the usage and integration of Pyth price feeds for accurate price conversion of the Klay token in USD, it implements a MockPyth contract, which is designed to help with the creation of price update data on a local test chain instead of querying the hermes api.
 
 - [Foundry Template for fetching Orakl priceFeed Address and integrating Orakl VRF](https://github.com/PaulElisha/kaiachain-foundryTemplate--pricefeedManager-PriceConverter) - This is a template smart contract that demonstrates the query and usage of the Orakl priceFeed address for multiple supported tokens. Also, it shows the integration of Orakl VRF. 
+
+
+## [lyle](https://github.com/lyledavids)
+- [Ducky](https://github.com/lyledavids/duckykaia) - On-chain art creater and minter
+- [JobJam](https://github.com/lyledavids/jobjam) - On-chain freelance platform. Revolutionising freelance work by providing a decentralised, transparent, and secure platform for connecting employers and freelancers through smart contracts.
