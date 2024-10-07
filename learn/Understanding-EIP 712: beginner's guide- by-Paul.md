@@ -208,6 +208,8 @@ When users see structured data with clear descriptions, they can understand what
 
 EIP-712 provides a standardized way to handle message signing. Developers can follow a consistent pattern, reducing bugs and miscommunications in the signature process.
 
+**Note:** 
+For usage in a codebase, see (repository)[https://github.com/PaulElisha/Kaia-Airdrop-Distribution]
 ## Conclusion
 
 EIP-712 is a valuable tool for Ethereum developers looking to enhance security and user experience in their dApps. By signing structured data, you reduce the risk of signature misuse and provide clarity to users about what they are signing. As you build and deploy your applications, consider integrating EIP-712 to ensure a safer and more user-friendly experience.
