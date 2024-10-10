@@ -21,6 +21,8 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 ## [chauanhtuan185](https://github.com/chauanhtuan185)
 - [Wibu bot](https://github.com/chauanhtuan185/Kaia-Defi-Trading-Bot) - Telegram bot to trade Tokens on DGSwap
 - [NFT CLI AIRDOP ](https://github.com/chauanhtuan185/nft-cli-airdrop) - A tooling set that allows anyone to check how many holders there are of any given NFT set as well as how many NFTs that holder holds
+- [NFT Voting Dao ]([https://github.com/chauanhtuan185/nft-cli-airdrop](https://github.com/chauanhtuan185/governorAlpha)) - A smart contract allow to check user are holding nft to voting
+
 ## [haxxsniper](https://github.com/haxxsniper)
 - [Kaia Foundry template](https://github.com/haxxsniper/kaia-foundry-template) - A sensible default template with example codes for building DApp on Kaia
 - [BlockCMD Drop]([https://drop.blockcmd.com](https://blockcmd.com/drop)) - Highly efficient KLAY, ERC20 and NFT airdrop tool on Kaia | Repos: [Smart contracts](https://github.com/haxxsniper/gaslite-drop-contracts) / [UI](https://github.com/haxxsniper/gaslite-ui)
