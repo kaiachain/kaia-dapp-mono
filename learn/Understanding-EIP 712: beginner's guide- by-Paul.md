@@ -10,7 +10,7 @@ At the end of the article, you will understand how to build a smart contract tha
 
 1. A solid understanding of writing smart contract with solidity.
 2. An understanding of utilizing foundry framework in smart contract developments.
-3. An understanding of EIP 191 which would be covered in this article.
+3. An understanding of EIP 191.
 4. An understanding of Digital Signatures - ECDSA.
 5. An understanding of precompiled contracts.
 
