@@ -1,10 +1,10 @@
-# Kaia Onchain Summer
+# Kaia Fall Odyssey
 
 > [!NOTE]  
-> Last updated: 2024-07-04. We did a major revamp of the bounty program to make it better for everyone involved.
+> Last updated: 2024-10-18
 
 ## Overview
-☀️ Welcome to Kaia Onchain Summer!
+☀️ Welcome to Kaia Fall Odyssey!
 
 We are joining hands with DoraHacks to celebrate our developer communities and their contributions to the mission of bringing more people onchain ⛓️
 
@@ -40,6 +40,20 @@ Create platforms, tools, contents to educate developers about going onchain, DeF
 - Education platforms
 - Bootcamps
 - Cool activities
+
+### Surf Szn (Consumer)
+Build DApps targeting consumers, bringing day-to-day activities onchain
+- Payments
+- Prediction markets
+- Onchain arbitration
+- Voting
+- Treasure hunts
+
+### Cultural Feast (Community)
+Organize activities and initiatives for the communities on Kaia
+- Meetups
+- Workshops (technical or non technical)
+- Livestreams/community calls
 
 ### Other
 Anything that might not fit the above tracks. You can freely propose and we will assign a fair KLAY compensation for your proposal.
