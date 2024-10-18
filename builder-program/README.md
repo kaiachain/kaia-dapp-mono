@@ -9,7 +9,7 @@ Go to [`program.md`](/builder-program/program.md) for more details (yes, it's lo
 ## Hall of Fame 🏆
 You can induct yourself into the Hall of Fame if you won a bounty. Thank you for your contributions 👍
 
-Go to [`hall-of-fame.md`](/buildathon/hall-of-fame.md) to check out current GOATs 🐐
+Go to [`hall-of-fame.md`](/builder-program/hall-of-fame.md) to check out current GOATs 🐐
 
 ## Support
 Tag us directly on GitHub or X, or send us an email.
