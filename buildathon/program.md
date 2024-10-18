@@ -1,9 +1,12 @@
 # Kaia Fall Odyssey
 
+![fall odyssey](/buildathon/images/dorahacks-fall-odyssey-2.png)
+
 > [!NOTE]  
 > Last updated: 2024-10-18
 
 ## Overview
+
 ☀️ Welcome to Kaia Fall Odyssey!
 
 We are joining hands with DoraHacks to celebrate our developer communities and their contributions to the mission of bringing more people onchain ⛓️
@@ -42,6 +45,7 @@ Create platforms, tools, contents to educate developers about going onchain, DeF
 - Cool activities
 
 ### Surf Szn (Consumer)
+![surf szn](/buildathon/images/dorahacks-surf-szn.png)
 Build DApps targeting consumers, bringing day-to-day activities onchain
 - Payments
 - Prediction markets
@@ -50,6 +54,7 @@ Build DApps targeting consumers, bringing day-to-day activities onchain
 - Treasure hunts
 
 ### Cultural Feast (Community)
+![cultural feast](/buildathon/images/dorahacks-cultural-feast.png)
 Organize activities and initiatives for the communities on Kaia
 - Meetups
 - Workshops (technical or non technical)
