@@ -1,4 +1,4 @@
-# Kaia Fall Odyssey
+# 🍁 Kaia Fall Odyssey
 
 ![fall odyssey](/buildathon/images/dorahacks-fall-odyssey-2.png)
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-☀️ Welcome to Kaia Fall Odyssey!
+🍁 Welcome to Kaia Fall Odyssey!
 
 We are joining hands with DoraHacks to celebrate our developer communities and their contributions to the mission of bringing more people onchain ⛓️
 
