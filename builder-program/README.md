@@ -1,10 +1,10 @@
-# Kaia bounty program
+# Kaia builder program
 
 ## Introduction
 We are funding open source developers... BIG! In collaboration with [DoraHacks](https://dorahacks.io), we are running a year round bounty program that rewards open source contributors building many things for the Kaia ecosystem.
 
 ## Program
-Go to [`program.md`](/buildathon/program.md) for more details (yes, it's longgggggggg so I had to split the text).
+Go to [`program.md`](/builder-program/program.md) for more details (yes, it's longgggggggg so I had to split the text).
 
 ## Hall of Fame 🏆
 You can induct yourself into the Hall of Fame if you won a bounty. Thank you for your contributions 👍
