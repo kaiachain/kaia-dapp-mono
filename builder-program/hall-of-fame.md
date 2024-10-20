@@ -66,3 +66,6 @@ Upon getting the `cleared` status for your issue, you can open a PR and induct y
 ## [lyle](https://github.com/lyledavids)
 - [Ducky](https://github.com/lyledavids/duckykaia) - On-chain art creater and minter
 - [JobJam](https://github.com/lyledavids/jobjam) - On-chain freelance platform. Revolutionising freelance work by providing a decentralised, transparent, and secure platform for connecting employers and freelancers through smart contracts.
+
+## [ExtraCaterpillar](https://github.com/ExtraCaterpiller)
+- [Petiverse](https://petiverse-three.vercel.app/) - Petiverse is an engaging NFT-based pet game | Repos: [Frontend](https://github.com/ExtraCaterpiller/Petiverse-frontend) / [Backend](https://github.com/ExtraCaterpiller/Petiverse-backend) / [Foundry](https://github.com/ExtraCaterpiller/Petiverse-foundry)
