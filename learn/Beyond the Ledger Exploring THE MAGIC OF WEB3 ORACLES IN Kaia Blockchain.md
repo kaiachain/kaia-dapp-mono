@@ -425,8 +425,6 @@ Create Update Data Locally(using MockPyth for the local test; for mainnet test, 
 
 [Test result 2](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLGThdQTCUa2TPJj6fVJCbTEMOY18QUihU7y0JHR0fWpmic3yeUzYyYMeJ5pqIUDtfz2GjrVGBpopF3KVcSxZDvh1vGOMlcBOVJt5VspiKlD4pEqBEmBQ=s512)
 
-![Image Description](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLGThdQTCUa2TPJj6fVJCbTEMOY18QUihU7y0JHR0fWpmic3yeUzYyYMeJ5pqIUDtfz2GjrVGBpopF3KVcSxZDvh1vGOMlcBOVJt5VspiKlD4pEqBEmBQ=s512)
-
 
 
 ## Integrating Orakl with your smart contract on the Kaia chain:
