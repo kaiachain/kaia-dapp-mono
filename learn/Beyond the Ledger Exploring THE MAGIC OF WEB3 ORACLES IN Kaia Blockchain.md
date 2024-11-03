@@ -429,5 +429,4 @@ Kaia's ecosystem, with its diverse oracle providers, demonstrates Kaia's maturit
 
 You can also reference Kaia docs for more info: [Kaia Docs](https://docs.kaia.io/build/tools/oracles/)
 
-For a list of Oracle Providers supporting Kaia and their integration in smart contracts on Kaia, visit the Kaia Oracle Toolkit repository: [Kaia Oracle Toolkit](https://github.com/PaulElisha/Kaia-Oracle-Toolkit)
-ggg
+For a list of Oracle Providers supporting Kaia and their integration in smart contracts on Kaia, visit the Kaia Oracle Toolkit repository: [Kaia Oracle Toolkit](https://github.com/PaulElisha/Kaia-Oracle-Toolki
