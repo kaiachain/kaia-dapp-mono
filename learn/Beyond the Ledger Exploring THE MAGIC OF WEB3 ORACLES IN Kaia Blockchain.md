@@ -99,7 +99,6 @@ contract PushBasedExample {
 - Witnet
 - DIA
 
-```markdown
 # Oracle Architecture: Chainlink
 
 Chainlink’s architecture is built around two main components: on-chain and off-chain elements. These components work together to securely deliver real-world data to smart contracts on the blockchain through a unique consensus mechanism. This setup allows multiple nodes to verify and reach a consensus on input for smart contracts, which can be repeatedly retrieved to ensure continuous accuracy and integrity. The entire system is engineered to securely feed data through its consensus mechanism, ensuring data validity and security at every step.
@@ -120,7 +119,6 @@ These smart contracts facilitate the translation of off-chain data requests into
 
 4. **LINK Token**: The LINK token is integral to Chainlink’s on-chain processes. It serves as a payment mechanism for node operators and functions as a staking asset, incentivizing accurate, reliable data submissions.
 
-```markdown
 ## 2. Off-Chain Components
 
 Off-chain components in Chainlink are responsible for handling external data sources, fetching, and validation, delivering the data that smart contracts require. These elements bridge real-world data with blockchain systems.
@@ -145,7 +143,6 @@ Chainlink’s consensus system integrates multiple verification layers and econo
 
 2. **Service Agreements and Reputation Scoring**: Chainlink nodes are ranked based on reputation metrics, including historical performance, accuracy, and speed. Only nodes with high reputation scores are selected for high-stakes data requests, fostering a competitive environment where reliability and performance are rewarded.
 
-```markdown
 ### 3. Cryptographic Proofs and Signatures
 
 Each node response is cryptographically signed before submission to the aggregator contract. This allows smart contracts to verify the data’s authenticity and traceability back to the original source node.
@@ -192,6 +189,7 @@ First, install the Chainlink client library in your development environment. You
 
 ```bash
 npm install --save @chainlink/contracts
+```
 
 # ChainlinkDataRequester Solidity Contract
 
@@ -237,6 +235,7 @@ contract ChainlinkDataRequester is ChainlinkClient {
         currentPrice = _price; // Stores the retrieved data on-chain
     }
 }
+```
 
 # Chainlink Aggregator Contract
 
@@ -266,6 +265,7 @@ contract PriceAggregator {
         return aggregator.latestAnswer();
     }
 }
+```
 
 # Chainlink Aggregator Contract
 
@@ -301,6 +301,7 @@ contract ChainlinkAggregator {
         return priceFeed.getAnswer(roundId);
     }
 }
+```
 
 # Integrating Chainlink VRF for Random Number Generation
 
@@ -352,6 +353,7 @@ contract ChainlinkVRFExample is VRFConsumerBase {
         randomResult = randomness; // Store the random number
     }
 }
+```
 
 ## 4. Staking Mechanism for Chainlink Nodes
 
@@ -395,38 +397,62 @@ contract ChainlinkStaking {
         _;
     }
 }
+```
 
-## Integration of Oracles with the Kaia blockchain
+## Integrating Pyth with your smart contract on the Kaia chain:
 
-We have highlighted a list of Oracle services supporting Kaia in both categories.
+We have to get the address of the chain we are working with, in this case, Kaia:
+`0x2880ab155794e7179c9ee2e38200202908c17b43`
+We need the Pyth price feed ID of the Kaia chain: `0x2880ab155794e7179c9ee2e38200202908c17b43`
 
-### Pyth Price Feed
 
-Pyth Network is an Oracle protocol that connects the owners of market data to applications on multiple blockchains. Each price feed publishes a robust aggregate of these prices multiple times per second.
+The next step is to copy the code below in the repository:
+Pyth PriceFeed Integration
 
-#### Integrating Pyth with your smart contract on the Kaia chain:
+1. The file in the `PriceConverterPyth.sol` was created to generate the Klay price on the Pyth network.
+It uses the price feed id of the currency KLAY/USD: 
 
-- Address of the Kaia chain: `0x2880ab155794e7179c9ee2e38200202908c17b43`
-- Pyth price feed id of the Kaia chain: `0x2880ab155794e7179c9ee2e38200202908c17b43`
+2. Notice we need the price update data in the `PythPriceConverter.sol` file to get the most recently updated price data for the KLAY/USD. Usually, to generate that, you would need to make an API call to the Pyth network hermes API, but in the script file, `CreatePriceUpdateData.s.sol`, we have integrated the MockPyth which gives us access to the function that generates a price update data to fetch our price update data on our local development chain, ANVIL.
 
-#### Code Example: Pyth PriceFeed Integration
+3. To see the MockPyth contract we used, check the `tests/mocks/MockPyth.sol` file in the repository.
 
-Check the `PriceConverterPyth.sol` file for how to integrate and generate KLAY/USD price on the Pyth network.
+4. In the `constants.sol`  file, we have the price data we used. Since there is no price data on a mock contract, we had to create one by importing the `PythStructs.sol`## file to generate a Pyth Price data and store it in our mapping “pricefeeds”. Now using a key “id”, we could access our stored price update data, and using the prices set, we could construct a price update data.
 
-### Orakl VRF Integration
 
-This section demonstrates how to fetch and utilize off-chain data using Orakl, a decentralized Oracle solution.
+Create Update Data Locally(using MockPyth for the local test; for mainnet test, ensure to use the Hermes api). See the result below:
 
-#### Code Example: Orakl VRF Integration
+![Test result 1](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlKpkLMSSIR7fQeGWZpb0NEAUSEg-Pu5pL31TWDLPZJuXokyxlEjNOBXEqMpva68GzJm9z6i5fgojNmrz0uLQ8gU4MMiR60fsiQt711tY6djzJJ_ilvUgg=s512)
 
-Check the `CoinFlip.sol` file for how to generate random numbers on the Orakl network. 
+![Test result 2](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLGThdQTCUa2TPJj6fVJCbTEMOY18QUihU7y0JHR0fWpmic3yeUzYyYMeJ5pqIUDtfz2GjrVGBpopF3KVcSxZDvh1vGOMlcBOVJt5VspiKlD4pEqBEmBQ=s512)
+
+
+## Integrating Orakl with your smart contract on the Kaia chain:
+
+This section will demonstrate how to fetch and utilize off-chain data using Orakl, a decentralized Oracle solution.
+
+1. We will get some test KLAY tokens for the Kairos testnet
+
+2. The next step is to copy the code below in the repository:
+Orakl VRF Integration
+
+3. The file in the `CoinFlip.sol` was created to generate random numbers on the Orakl network.
+
+4.  In the code VRFConsumerBase was Inherited from Orakl's, VRF Coordinator interface was also imported.
+
+5. The enumCoinFlipChoice represents the possible choices a player can make 
+
+6. The Flip function in the `CoinFlip.sol` file allows a player to start a game, check if enough ETH is sent, request a random number from Orakl, and store game status, the players also call the Flip function with their choice of ETH.
+
+7. The 'FullfillRandomWords' function in the CoinFlip file has a callback function called by Orakl VRF, the callback function determines game outcome Win /Loss and also handles payouts for winners.
+
+8. The getStatus function is a helper function that helps to return the status of a specific game, The getBalance Function returns the contract's current balance
 
 ## Conclusion:
 
-Integrating Oracle services into the Kaia blockchain ecosystem marks an important advancement in connecting on-chain and off-chain data. Pull-based and push-based oracles, exemplified by Pyth Network and Orakl, offer developers flexible, wide options to optimize data freshness, cost efficiency, and update frequency.
+Integrating Oracle services into the Kaia blockchain ecosystem marks an important advancement in connecting on-chain and off-chain data. pull-based and push-based oracles, exemplified by Pyth Network and Orakl, offer developers flexible, wide options to optimize data freshness, cost efficiency, and update frequency. Kaia ecosystem, with its diverse oracle providers, demonstrates Kaia's maturity and potential for innovation in decentralized applications. As Kaia evolves, oracles will remain essential in expanding smart contract capabilities, combining deterministic blockchain technology with reliable external data feeds. 
 
-Kaia's ecosystem, with its diverse oracle providers, demonstrates Kaia's maturity and potential for innovation in decentralized applications.
+You can also reference kaia docs for more info: https://docs.kaia.io/build/tools/oracles/
 
-You can also reference Kaia docs for more info: [Kaia Docs](https://docs.kaia.io/build/tools/oracles/)
+For a list of Oracle Providers supporting Kaia and their Integration in a smart contract on Kaia, visit the Kaia Oracle Toolkit repository: https://github.com/PaulElisha/Kaia-Oracle-Toolkit/
 
-For a list of Oracle Providers supporting Kaia and their integration in smart contracts on Kaia, visit the Kaia Oracle Toolkit repository: [Kaia Oracle Toolkit](https://github.com/PaulElisha/Kaia-Oracle-Toolki
+
