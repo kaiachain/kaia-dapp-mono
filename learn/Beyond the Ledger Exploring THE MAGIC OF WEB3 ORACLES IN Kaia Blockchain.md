@@ -421,9 +421,9 @@ It uses the price feed id of the currency KLAY/USD:
 
 Create Update Data Locally(using MockPyth for the local test; for mainnet test, ensure to use the Hermes api). See the result below:
 
-![Test result 1](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlKpkLMSSIR7fQeGWZpb0NEAUSEg-Pu5pL31TWDLPZJuXokyxlEjNOBXEqMpva68GzJm9z6i5fgojNmrz0uLQ8gU4MMiR60fsiQt711tY6djzJJ_ilvUgg=s512)
+[Test result 1](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlKpkLMSSIR7fQeGWZpb0NEAUSEg-Pu5pL31TWDLPZJuXokyxlEjNOBXEqMpva68GzJm9z6i5fgojNmrz0uLQ8gU4MMiR60fsiQt711tY6djzJJ_ilvUgg=s512)
 
-![Test result 2](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLGThdQTCUa2TPJj6fVJCbTEMOY18QUihU7y0JHR0fWpmic3yeUzYyYMeJ5pqIUDtfz2GjrVGBpopF3KVcSxZDvh1vGOMlcBOVJt5VspiKlD4pEqBEmBQ=s512)
+[Test result 2](https://lh3.googleusercontent.com/keep-bbsk/AFgXFlLGThdQTCUa2TPJj6fVJCbTEMOY18QUihU7y0JHR0fWpmic3yeUzYyYMeJ5pqIUDtfz2GjrVGBpopF3KVcSxZDvh1vGOMlcBOVJt5VspiKlD4pEqBEmBQ=s512)
 
 
 ## Integrating Orakl with your smart contract on the Kaia chain:
