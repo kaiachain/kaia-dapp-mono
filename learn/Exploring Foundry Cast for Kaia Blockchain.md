@@ -1772,7 +1772,7 @@ cast wallet sign --private-key <your-private-key> --to <recipient-address> --val
 ```
 
 #### Parameters:
---private-key <your-private-key>: The private key associated with your Kaia wallet. This is used to sign the transaction and generate a signature.
+--ac <your-private-key>: The private key associated with your Kaia wallet. This is used to sign the transaction and generate a signature.
 --to <recipient-address>: The address you want to send the transaction to. This can be the address of another user or a smart contract.
 --value <amount>: The amount of tokens or assets (in Wei for Kaia) that you're transferring. For example, you might want to send 1 token, which would be specified as 1000000000000000000 if the token has 18 decimals.
 --gas <gas-limit>: The maximum amount of gas you're willing to spend on the transaction. For example, for a simple transaction, you might set this to 21000 gas.
